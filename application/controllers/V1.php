@@ -18,7 +18,7 @@ class V1 extends REST_Controller {
         $this->response($data, REST_Controller::HTTP_OK);
     }
 
-    public function get_pemanjat(){
+    public function pemanjat_get(){
         $data = array();
         $data[0]["nama"] = "opik";
         $data[0]["umur"] = 10;
