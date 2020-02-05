@@ -25,6 +25,8 @@ class V1 extends REST_Controller {
 
         $data[1]["nama"] = "opet";
         $data[1]["umur"] = 12;
+
+        $this->response($data, REST_Controller::HTTP_OK);
     }
 
     /**
