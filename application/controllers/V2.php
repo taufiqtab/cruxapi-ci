@@ -1,7 +1,7 @@
 <?php
 require APPPATH . 'libraries/REST_Controller.php';
 
-class V1 extends REST_Controller {
+class V2 extends REST_Controller {
 	  /**
      * Get All Data from this method.
      *
